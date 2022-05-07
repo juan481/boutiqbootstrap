@@ -1,18 +1,18 @@
 {
   "name": "entrega-06---boostrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creación de BoutiQcar con html y css",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css":"node-sass --include-path scss sass/estilossass.scss css/estilosnuevos.css",
+    "build-css": "node-sass --include-path scss sass/estilossass.scss css/estilosnuevos.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/juan481/boutiqbootstrap.git"
   },
-  "author": "",
+  "author": "juan cruz rossi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/juan481/boutiqbootstrap/issues"
@@ -20,5 +20,6 @@
   "homepage": "https://github.com/juan481/boutiqbootstrap#readme",
   "dependencies": {
     "nodemon": "^2.0.15"
-  }
+  },
+  "devDependencies": {}
 }

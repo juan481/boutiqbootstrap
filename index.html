@@ -10,6 +10,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet"> 
     <title>BoutiQCar - Home</title>
+
+    <!-- Meta -->
+    <meta name="Author" lang="es" content="Juan Cruz Rossi" />
+    <meta name="keywords" content="HTML, CSS," />
+    <meta name="description" content="BoutiQCar nació para que puedas alquilar tu auto de forma segura. Ofrecemos esta alternativa porque sabemos lo complejo y poco transparente que es este proceso (tanto con particulares como con concesionarias). Queremos que sea muy fácil para vos!." />
+    <meta name="copyright" content="Copyright © BoutiQCar.com" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <!-- Fin de Meta -->
+
 </head>
 <body>
 <!-- Header -->
@@ -25,24 +35,24 @@
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                 </li>
                 <li class="nav-item text-white">
-                    <a class="nav-link text-white" href="#">Nosotros</a>
+                    <a class="nav-link text-white" href="pages/nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item text-white">
-                    <a class="nav-link text-white" href="autos.html">Autos</a>
+                    <a class="nav-link text-white" href="pages/autos.html">Autos</a>
                 </li>
                 <li class="nav-item dropdown ">
                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Apps
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Android</a></li>
-                        <li><a class="dropdown-item" href="#">iOS</a></li>
+                        <li><a class="dropdown-item" href="https://play.google.com/store?hl=es_AR&gl=US">Android</a></li>
+                        <li><a class="dropdown-item" href="https://www.apple.com/la/app-store/">iOS</a></li>
                         
                         </ul>
 
                 </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contacto</a>
+                        <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
                     </li>
                     
                     
@@ -52,67 +62,49 @@
             </div>
             </div>
         </nav>
-        <div class="container">
-            <div class="row">
-            <div class="col-sm-8">
-            <img src="img/app-Mockup.png" class="img-fluid" alt="">
-            </div>
-            <div class="col-sm-4">
-                <div class="">
-                <h1>¡Te estamos esperando!</h1>
-                </div>
-                <div class="sistemaoperativo">
-                    <img class="rounded float-left" src="img/android.png"  alt="">
-                </div>
-                <div class="">
-                    <img class="rounded float-left" src="img/ios.png"  alt="">
-                </div>
-            </div>
-            </div>
-            <hr>
-            </div>
+        <!-- Fin de Header -->
 
-        <div class="container">
-            <div class="row">
-                <h2 class="text-center">
-                    Texto de ejemplo
-                </h2>
+        <!-- SLIDER -->
+        <div class="row">
+         <div class="col-sm-12">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">    
+                  <a href="autos.html"></a>
+                <img class="d-block w-100" src="img/slider1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <a href="autos.html"></a>
+                <img class="d-block w-100" src="img/slider2.jpg" alt="Second slide">
+              </div>
             </div>
-            <div class="row row-cols-4">
-                <div class="col">  
-                <img class="rounded mx-auto d-block" src="img/dinero.png" width="64" height="64" alt=""></a>
-                    <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
-                         </div>
-                <div class="col">
-                    <img class="rounded mx-auto d-block" src="img/auto.png" width="64" height="64" alt=""></a>
-                    <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
-                         </div>
-                <div class="col">
-                    <img class="rounded mx-auto d-block" src="img/check.png" width="64" height="64" alt=""></a>
-                    <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
-                         </div>
-                <div class="col">
-                    <img class="rounded mx-auto d-block" src="img/acuerdo.png" width="64" height="64" alt=""></a>
-                    <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>   
-                        </div>
-
-            </div>
-
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Siguiente</span>
+            </a>
+          </div>
+         </div>
         </div>
-
+    <!-- Fin de Slider -->
+        
+         <!-- Como funciona el servicio -->
         <div class="container">
             <div class="row">
                 <h2 class="text-center">
-                    ¿Cómo funciona nuestro servicio?
+                    ¿Cómo funciona el servicio <strong> BoutiQCar? </strong>
                 </h2>
 
             <div class="video-center">
-                <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/n8u-tDr565Y" frameborder="0" allowfullscreen></iframe>
+                <iframe style="display: block; margin: auto;" width="560" height="315" src="https://www.youtube.com/embed/zWGKb0acpoM" frameborder="0" allowfullscreen></iframe>
             </div>
 
             </div>
         </div>
-
+        <!-- Fin Como funciona el servicio -->
         <div class="container">
             <div class="row">
                 <h2 class="text-center">
@@ -120,68 +112,113 @@
                     Es hora de utilizar <strong>BoutiQCar</strong>
                 </h2>
 
+                 <!-- Tarjetas  -->
                 <div class="container">
                     <div class="row">
-                      <div class="col-6 col-sm-3"> 
-                          <img class="rounded mx-auto d-block" src="img/dinero.png" width="64" height="64" alt="">
-                        <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/tarjetauno.jpg" alt="Personas viendo auto">
+                            <div class="card-body">
+                              <h5 class="card-title">Estamos esperandote</h5>
+                              <p class="card-text">Nuestro servicio online te permite buscar el auto que querés por marca, modelo y versión, comparar distintas ofertas. Disponible también desde la app</p>
+                              <a href="autos.html" class="btn btn-primary">Ver autos</a>
+                            </div>
+                          </div>
                      </div>
                                     
-                      <div class="col-6 col-sm-3"> 
-                          <img class="rounded mx-auto d-block" src="img/dinero.png" width="64" height="64" alt="">
-                        <h5 class="text-center"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/tarjetados.jpg" alt="Hombre midiendo el aceite">
+                            <div class="card-body">
+                              <h5 class="card-title">Autos Certificados</h5>
+                              <p class="card-text">Certificación mecánica de más de 280 puntos con una Garantía de 6 meses, documentación en regla y acompañamiento durante todo el proceso</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                          </div>
+                        </div>
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/tarjetatres.jpg" alt="Mujer conduciendo">
+                            <div class="card-body">
+                              <h5 class="card-title">Es momento de disfrutar</h5>
+                              <p class="card-text"> Te ayudamos a comprar tu auto sin sorpresas inesperadas, interconsultas eternas ni negociaciones extenuantes. Es simple.</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                          </div>
+                     </div>
+                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"> 
+                        <div class="card" style="width: 20rem;">
+                            <img class="card-img-top" src="img/tarjetacuatro.jpg" alt="Persona lavando auto">
+                            <div class="card-body">
+                              <h5 class="card-title">¿Dónde se encuentra BoutiQCar?</h5>
+                              <p class="card-text">Tenemos nuestras oficinas en la localidad de Vicente López, partido homónimo, Provincia de Buenos Aires.</p>
+                              <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                          </div>
                      </div>
                   
-                      
-                      <div class="w-100"></div>
-                  
-                      <div class="col-6 col-sm-3"> 
-                          <img class="rounded mx-auto d-block" src="img/dinero.png" width="64" height="64" alt="">
-                        <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
-                     </div>
-                     <div class="col-6 col-sm-3"> 
-                         <img class="rounded mx-auto d-block" src="img/dinero.png" width="64" height="64" alt="">
-                        <h5 class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat.</h5>
-                     </div>
-                     <div class="col-6 col-sm-6"> 
-                         <img class=" img-fluid" src="img/app-Mockup.png"  alt="">
-                         <p>no encontre la forma de acomodar bien este bloque</p>
-                        
-                     </div>
-                     
+                     <!-- Fin de Tarjetas  -->
 
                     
         </div>
-
-        <div class="row">
-            <div class="col-md-8">
-                <div class="contacto">
-
-                    <label for="textarea" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="Nombre">
-
-                    <label for="textarea" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="Apellido">
-
-
-                <label for="Email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="Email" placeholder="correo@ejemplo.com">
-            </div>
-            </div>
-            <div class="col-md-4">
-                <img class=" img-fluid" src="img/app-Mockup.png"  alt="">
-            </div>
+        <!-- Contacto  -->
+        <div class="container contacto">
+          <div class="row">
+          <div class="col-md-3">
+          <div class="contact-info">
+          <img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+          <h2>¡Hola!</h2>
+          <h4>Queremos hablar contigo</h4>
           </div>
-        
-        
+          </div>
+          <div class="col-md-9">
+          <div class="contact-form">
+          <div class="form-group">
+          <label class="control-label col-sm-2" for="fname">Nombre:</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control" id="fname" placeholder="Ingresar Nombre" name="fname">
+          </div>
+          </div>
+          <div class="form-group">
+          <label class="control-label col-sm-2" for="lname">Apellido:</label>
+          <div class="col-sm-10">
+          <input type="text" class="form-control" id="lname" placeholder="Ingresar Apellido" name="lname">
+          </div>
+          </div>
+          <div class="form-group">
+          <label class="control-label col-sm-2" for="email">Email:</label>
+          <div class="col-sm-10">
+          <input type="email" class="form-control" id="email" placeholder="Ingresar email" name="email">
+          </div>
+          </div>
+          <div class="form-group">
+          <label class="control-label col-sm-2" for="comment">Mensaje:</label>
+          <div class="col-sm-10">
+          <textarea class="form-control" rows="5" id="comment"></textarea>
+          </div>
+          </div>
+          <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-default">Enviar</button>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+          
+          <!-- Fin de contacto -->
+          
+          </div>
 
-        <div class="container bg-light">
+          <!-- Footer -->
+          <div class="container bg-light">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-4"><a class="text-muted" href="#"><img src="img/facebook.png" width="24" height="24" alt=""></a></li>
-                <li class="ms-4"><a class="text-muted" href="#"><img src="img/instagram.png" width="24" height="24" alt=""></a></li>
-                <li class="ms-4"><a class="text-muted" href="#"><img src="img/twitter.png" width="24" height="24" alt=""></a></li>
-                <li class="ms-4"><a class="text-muted" href="#"><img src="img/youtube.png" width="24" height="24" alt=""></a></li>
+                <li class="ms-4"><a class="text-muted" href="https://www.facebook.com/"><img src="img/facebook.png" width="24" height="24" alt="facebook"></a></li>
+                <li class="ms-4"><a class="text-muted" href="https://www.instagram.com/"><img src="img/instagram.png" width="24" height="24" alt="instagram"></a></li>
+                <li class="ms-4"><a class="text-muted" href="https://twitter.com/"><img src="img/twitter.png" width="24" height="24" alt="twitter"></a></li>
+                <li class="ms-4"><a class="text-muted" href="https://www.youtube.com/"><img src="img/youtube.png" width="24" height="24" alt="youtube"></a></li>
               </ul>
            
               <div class="col-md-4 d-flex align-items-center">
@@ -193,8 +230,7 @@
           
              
             </footer>
-          </div>
-
+            <!-- Fin de footer -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
